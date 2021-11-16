@@ -1,0 +1,42 @@
+<!--
+Copyright 2018 Google LLC.
+SPDX-License-Identifier: Apache-2.0
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Imagemin Demo</title>
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </body>
+    <style>
+      body{
+        text-align: center;
+      }
+      img{
+        display: block;
+        margin: 30px auto;
+        border: 1px solid black;
+      }
+    </style>  
+</head>
+  <body>
+    <h1>Foobar Flowershop</h1>
+    <!-- <img src="https://capable-intriguing-sock.glitch.me/images/flower1.jpg" alt="" />
+    <img src="https://capable-intriguing-sock.glitch.me/images/flower2.jpg" alt="" />
+    <img src="https://capable-intriguing-sock.glitch.me/images/flower3.jpg" alt="" />
+    <img src="https://capable-intriguing-sock.glitch.me/images/flower4.jpg" alt="" />
+    <img src="https://capable-intriguing-sock.glitch.me/images/flower5.jpg" alt="" /> -->
+
+    <!-- use lazysizes -->
+    <img class="lazyload" data_src="https://capable-intriguing-sock.glitch.me/images/flower1.jpg" alt="" />
+    <img class="lazyload" data_src="https://capable-intriguing-sock.glitch.me/images/flower2.jpg" alt="" />
+    <img class="lazyload" data_src="https://capable-intriguing-sock.glitch.me/images/flower3.jpg" alt="" />
+    <img class="lazyload" data_src="https://capable-intriguing-sock.glitch.me/images/flower4.jpg" alt="" />
+    <img class="lazyload" data_src="https://capable-intriguing-sock.glitch.me/images/flower5.jpg" alt="" />
+    <script src="lazysizes.min.js" async></script>
+    
+  </body>
+</html>
